@@ -20,7 +20,35 @@ int main()
 	float avg = 1.0f;
 	cout << "Please enter a number: ";
 	
+	cin >> x;
+	sum = sum + x;
+	++k;
+	if (x != 0)
+	{
+		avg = sum / k;
+	}
+	else if (x == 0)
+		avg = sum / k;
+	cout << "Sum= " << sum << endl;
+	cout << "Avg= " << avg << endl;
 	
+
+	cin >> x;
+	sum = sum + x;
+	++k;
+	if (x != 0)
+	{
+		avg = sum / k;
+	}
+	else if (x == 0)
+		avg = sum / k;
+	cout << "Sum= " << sum << endl;
+	cout << "Avg= " << avg << endl;
+	if (x != 0)
+	{
+		cout << "To stop adding numbers, enter 0" << endl << "Add number: ";
+	}
+
 	do
 	{
 		cin >> x;

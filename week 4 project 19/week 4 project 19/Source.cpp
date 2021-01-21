@@ -33,7 +33,7 @@ bool check(int a)
 }
 void outputResults(int numofOdd, int oddTotal, int numofEven, int evenTotal)
 {
-	cout << "The number and the sum of odd numbers is: " << numofOdd << " " << oddTotal << endl << "The number and the sum of even numbers are: " << numofEven << " " << evenTotal << endl;
+	cout << "The number and the sum of odd numbers are: " << numofOdd << " and " << oddTotal << endl << "The number and the sum of even numbers are: " << numofEven << " and " << evenTotal << endl;
 
 }
 
